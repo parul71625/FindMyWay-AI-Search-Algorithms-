@@ -1,4 +1,4 @@
-# AISearchAlgo
+# FindMyWay - AISearchAlgorithms
 
 The algorithm implements Breadth-First search, Depth-First Search, Uniform-cost
 Search, and A* Search separately.
