@@ -3,7 +3,7 @@ package aisearchalgo;
 import java.io.*;
 import java.util.*;
 
-public class AISearchAlgo {
+public class FindMyWay {
 
     String algo, startState, goalState;
     int noOfLiveTL, noOfSundayTL;
@@ -408,7 +408,7 @@ public class AISearchAlgo {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
         BufferedReader input = null;
-        AISearchAlgo ob = new AISearchAlgo();
+        FindMyWay ob = new FindMyWay();
         try {
             input = new BufferedReader(new FileReader("input.txt"));
             ob.createInputMap(input);
